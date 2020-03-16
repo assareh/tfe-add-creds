@@ -1,5 +1,5 @@
-aws_workspace_ids = ["ws-wd7ot4BKCkn6yohn"] // aws-ec2-instance-dev
+aws_workspaces = ["aws-ec2-instance-dev"]
 
-azure_workspace_ids = []
+azure_workspaces = []
 
-gcp_workspace_ids = ["ws-vKw3XxThAu9arf6h"] // gcp-compute-instance-dev
+gcp_workspaces = ["gcp-compute-instance-dev"]
