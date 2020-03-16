@@ -66,11 +66,11 @@ resource "tfe_variable" "arm_client_id" {
   workspace_id = "${var.organization}/${element(var.azure_workspace_ids, count.index)}"
 }
 
-resource "tfe_variable" "env_vars" {
-  count        = length(var.workspace_ids)
+resource "tfe_variable" "env_vars_gcp" {
+  for_each     = var.gcp_workspace_ids
   key          = "CONFIRM_DESTROY"
   value        = "1"
   category     = "env"
-  workspace_id = "${var.organization}/${element(var.workspace_ids, count.index)}"
+  workspace_id = each.value
 }
 
