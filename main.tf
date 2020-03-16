@@ -9,7 +9,7 @@ resource "tfe_variable" "gcp_credentials" {
   value        = var.gcp_credentials
   category     = "env"
   sensitive    = true
-  workspace_id = "${var.organization}/${element(var.workspace_ids, count.index)}"
+  workspace_id = "${var.organization}/${element(var.gcp_workspace_ids, count.index)}"
 }
 
 resource "tfe_variable" "aws_secret_access_key" {
@@ -18,7 +18,7 @@ resource "tfe_variable" "aws_secret_access_key" {
   value        = var.aws_secret_access_key
   category     = "env"
   sensitive    = true
-  workspace_id = "${var.organization}/${element(var.workspace_ids, count.index)}"
+  workspace_id = "${var.organization}/${element(var.aws_workspace_ids, count.index)}"
 }
 
 resource "tfe_variable" "aws_access_key_id" {
@@ -27,7 +27,7 @@ resource "tfe_variable" "aws_access_key_id" {
   value        = var.aws_access_key_id
   category     = "env"
   sensitive    = true
-  workspace_id = "${var.organization}/${element(var.workspace_ids, count.index)}"
+  workspace_id = "${var.organization}/${element(var.aws_workspace_ids, count.index)}"
 }
 
 resource "tfe_variable" "arm_subscription_id" {
@@ -36,7 +36,7 @@ resource "tfe_variable" "arm_subscription_id" {
   value        = var.arm_subscription_id
   category     = "env"
   sensitive    = true
-  workspace_id = "${var.organization}/${element(var.workspace_ids, count.index)}"
+  workspace_id = "${var.organization}/${element(var.azure_workspace_ids, count.index)}"
 }
 
 resource "tfe_variable" "arm_client_secret" {
@@ -45,7 +45,7 @@ resource "tfe_variable" "arm_client_secret" {
   value        = var.arm_client_secret
   category     = "env"
   sensitive    = true
-  workspace_id = "${var.organization}/${element(var.workspace_ids, count.index)}"
+  workspace_id = "${var.organization}/${element(var.azure_workspace_ids, count.index)}"
 }
 
 resource "tfe_variable" "arm_tenant_id" {
@@ -54,7 +54,7 @@ resource "tfe_variable" "arm_tenant_id" {
   value        = var.arm_tenant_id
   category     = "env"
   sensitive    = true
-  workspace_id = "${var.organization}/${element(var.workspace_ids, count.index)}"
+  workspace_id = "${var.organization}/${element(var.azure_workspace_ids, count.index)}"
 }
 
 resource "tfe_variable" "arm_client_id" {
@@ -63,7 +63,7 @@ resource "tfe_variable" "arm_client_id" {
   value        = var.arm_client_id
   category     = "env"
   sensitive    = true
-  workspace_id = "${var.organization}/${element(var.workspace_ids, count.index)}"
+  workspace_id = "${var.organization}/${element(var.azure_workspace_ids, count.index)}"
 }
 
 resource "tfe_variable" "env_vars" {

@@ -7,7 +7,17 @@ variable "oauth_token_id" {
 variable "organization" {
 }
 
-variable "workspace_ids" {
+variable "aws_workspace_ids" {
+  type    = list(string)
+  default = []
+}
+
+variable "azure_workspace_ids" {
+  type    = list(string)
+  default = []
+}
+
+variable "gcp_workspace_ids" {
   type    = list(string)
   default = []
 }

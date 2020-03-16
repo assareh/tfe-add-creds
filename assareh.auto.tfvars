@@ -1,0 +1,1 @@
+aws_workspace_ids = ["ws-wd7ot4BKCkn6yohn"]
