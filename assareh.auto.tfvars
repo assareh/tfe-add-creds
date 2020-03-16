@@ -14,7 +14,7 @@ azure_workspaces = ["azure-vm-dev",
 
 gcp_workspaces = ["gcp-compute-instance-dev",
                   "gcp-compute-instance-stage",
-                  "gcp-compute-instance-master",
+                  "gcp-compute-instance-prod",
                   "gke-01-network",
                   "gke-02-cluster",
                   "gke-03-app",
