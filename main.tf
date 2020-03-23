@@ -26,7 +26,7 @@ resource "tfe_variable" "aws_access_key_id" {
   key          = "AWS_ACCESS_KEY_ID"
   value        = var.aws_access_key_id
   category     = "env"
-  sensitive    = true
+  sensitive    = false
   workspace_id = "${var.organization}/${each.value}"
 }
 
@@ -35,7 +35,7 @@ resource "tfe_variable" "arm_subscription_id" {
   key          = "ARM_SUBSCRIPTION_ID"
   value        = var.arm_subscription_id
   category     = "env"
-  sensitive    = true
+  sensitive    = false
   workspace_id = "${var.organization}/${each.value}"
 }
 
@@ -53,7 +53,7 @@ resource "tfe_variable" "arm_tenant_id" {
   key          = "ARM_TENANT_ID"
   value        = var.arm_tenant_id
   category     = "env"
-  sensitive    = true
+  sensitive    = false
   workspace_id = "${var.organization}/${each.value}"
 }
 
@@ -62,7 +62,7 @@ resource "tfe_variable" "arm_client_id" {
   key          = "ARM_CLIENT_ID"
   value        = var.arm_client_id
   category     = "env"
-  sensitive    = true
+  sensitive    = false
   workspace_id = "${var.organization}/${each.value}"
 }
 
