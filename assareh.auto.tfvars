@@ -3,7 +3,8 @@ aws_workspaces = ["aws-ec2-instance-dev",
                   "aws-ec2-instance-prod",
                   "hashicat-aws",
                   "hashicat-dev",
-                  "multi-cloud-app"
+                  "multi-cloud-app",
+                  "f5-terraform-consul-sd-webinar"
                   ]
 
 azure_workspaces = ["azure-vm-dev",
