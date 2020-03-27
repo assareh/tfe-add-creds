@@ -5,7 +5,7 @@
                   # "hashicat-dev",
                   # "multi-cloud-app",
                   # "f5-terraform-consul-sd-webinar"
-                  ]
+  #                ]
 
 # azure_workspaces = ["azure-vm-dev",
 #                    "azure-vm-master",
@@ -22,4 +22,4 @@ gcp_workspaces = [#"gcp-compute-instance-dev",
 #                  "k8s-sample",
 #                  "multi-cloud-app"
   "hashicat-gcp"
-#                  ]
+                  ]
