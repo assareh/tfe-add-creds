@@ -1,5 +1,5 @@
 provider "tfe" {
-  version = "~> 0.9"
+  version = "=0.14.0"
   token   = var.token
 }
 
@@ -89,4 +89,3 @@ resource "tfe_variable" "env_vars_gcp" {
   category     = "env"
   workspace_id = "${var.organization}/${each.value}"
 }
-
