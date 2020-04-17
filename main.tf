@@ -65,27 +65,3 @@ resource "tfe_variable" "arm_client_id" {
   sensitive    = false
   workspace_id = "${var.organization}/${each.value}"
 }
-
-resource "tfe_variable" "env_vars_aws" {
-  for_each     = var.aws_workspaces
-  key          = "CONFIRM_DESTROY"
-  value        = "1"
-  category     = "env"
-  workspace_id = "${var.organization}/${each.value}"
-}
-
-resource "tfe_variable" "env_vars_azure" {
-  for_each     = var.azure_workspaces
-  key          = "CONFIRM_DESTROY"
-  value        = "1"
-  category     = "env"
-  workspace_id = "${var.organization}/${each.value}"
-}
-
-resource "tfe_variable" "env_vars_gcp" {
-  for_each     = var.gcp_workspaces
-  key          = "CONFIRM_DESTROY"
-  value        = "1"
-  category     = "env"
-  workspace_id = "${var.organization}/${each.value}"
-}
