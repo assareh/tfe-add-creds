@@ -2,7 +2,8 @@ aws_workspaces = ["aws-ec2-instance-dev",
   "aws-ec2-instance-qa",
   "aws-ec2-instance-prod",
   "f5-terraform-consul-sd-webinar",
-"hashicat-dev"]
+"hashicat-dev",
+  "vault-demo"]
 
 gcp_workspaces = ["gcp-compute-instance-dev",
   "gcp-compute-instance-stage",
