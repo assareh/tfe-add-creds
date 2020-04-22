@@ -19,4 +19,5 @@ azure_workspaces = ["andy-sandbox-lab",
   "azure-vm-dev",
   "azure-vm-master",
   "hashicat-azure",
-"azure-devops-pipeline-test"]
+"azure-devops-pipeline-test",
+  "palace-arcade"]
