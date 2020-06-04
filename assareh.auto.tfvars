@@ -7,7 +7,8 @@ aws_workspaces = ["andy-sandbox-lab",
 "hashicat-dev",
   "vault-demo",
   "hashicorp-demos",
-  "aws-vault-perf"]
+  "aws-vault-perf",
+  "aws-vault-perf-guides"]
 
 gcp_workspaces = ["andy-sandbox-lab",
   "gcp-compute-instance-dev",
