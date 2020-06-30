@@ -8,7 +8,8 @@ aws_workspaces = ["andy-sandbox-lab",
   "vault-demo",
   "hashicorp-demos",
   "aws-vault-perf",
-  "aws-vault-perf-guides"]
+  "aws-vault-perf-guides",
+  "terraform-aws-rds"]
 
 gcp_workspaces = ["andy-sandbox-lab",
   "gcp-compute-instance-dev",
