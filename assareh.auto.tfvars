@@ -30,4 +30,5 @@ azure_workspaces = ["andy-sandbox-lab",
   "hashicat-azure",
 "azure-devops-pipeline-test",
   "azure-palace-arcade",
-  "azure-transit-demo"]
+  "azure-transit-demo",
+  "vault-azure-python-mysql-webapp"]
