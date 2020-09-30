@@ -12,7 +12,8 @@ aws_workspaces = ["andy-sandbox-lab",
   "terraform-aws-rds",
   "01-terraform-demo-testing",
   "02-terraform-demo-staging",
-  "03-terraform-demo-production"]
+  "03-terraform-demo-production",
+  "tf-tfcloud-agent"]
 
 gcp_workspaces = ["andy-sandbox-lab",
   "gcp-compute-instance-dev",
