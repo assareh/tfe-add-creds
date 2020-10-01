@@ -10,9 +10,6 @@ aws_workspaces = ["andy-sandbox-lab",
   "aws-vault-perf",
   "aws-vault-perf-guides",
   "terraform-aws-rds",
-  "01-terraform-demo-testing",
-  "02-terraform-demo-staging",
-  "03-terraform-demo-production",
   "tf-tfcloud-agent"]
 
 gcp_workspaces = ["andy-sandbox-lab",
@@ -24,10 +21,7 @@ gcp_workspaces = ["andy-sandbox-lab",
   "gke-01-network",
   "gke-02-cluster",
 "gke-03-app",
-  "hashicorp-demos",
-  "01-terraform-demo-testing",
-  "02-terraform-demo-staging",
-  "03-terraform-demo-production"]
+  "hashicorp-demos"]
 
 azure_workspaces = ["andy-sandbox-lab",
   "azure-vm-dev",
@@ -39,7 +33,4 @@ azure_workspaces = ["andy-sandbox-lab",
   "azure-palace-arcade",
   "azure-transit-demo",
   "vault-azure-python-mysql-webapp",
-  "azurerm-issue",
-    "01-terraform-demo-testing",
-  "02-terraform-demo-staging",
-  "03-terraform-demo-production"]
+  "azurerm-issue"]
