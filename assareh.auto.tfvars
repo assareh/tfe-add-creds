@@ -22,7 +22,8 @@ gcp_workspaces = ["a-lab",
   "gke-02-cluster",
 "gke-03-app",
   "hashicorp-demos",
-  "learn-terraform-pipelines-k8s"]
+  "learn-terraform-pipelines-k8s",
+  "learn-terraform-pipelines-consul"]
 
 azure_workspaces = ["a-lab",
   "azure-vm-dev",
