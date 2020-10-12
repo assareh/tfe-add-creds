@@ -21,7 +21,8 @@ gcp_workspaces = ["andy-sandbox-lab",
   "gke-01-network",
   "gke-02-cluster",
 "gke-03-app",
-  "hashicorp-demos"]
+  "hashicorp-demos",
+  "learn-terraform-pipelines-k8s"]
 
 azure_workspaces = ["andy-sandbox-lab",
   "azure-vm-dev",
