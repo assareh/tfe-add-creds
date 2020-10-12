@@ -1,4 +1,4 @@
-aws_workspaces = ["andy-sandbox-lab",
+aws_workspaces = ["a-lab",
   "aws-ec2-instance-dev",
   "aws-ec2-instance-test",
   "aws-ec2-instance-stage",
@@ -12,7 +12,7 @@ aws_workspaces = ["andy-sandbox-lab",
   "terraform-aws-rds",
   "tf-tfcloud-agent"]
 
-gcp_workspaces = ["andy-sandbox-lab",
+gcp_workspaces = ["a-lab",
   "gcp-compute-instance-dev",
   "gcp-compute-instance-test",
   "gcp-compute-instance-stage",
@@ -24,7 +24,7 @@ gcp_workspaces = ["andy-sandbox-lab",
   "hashicorp-demos",
   "learn-terraform-pipelines-k8s"]
 
-azure_workspaces = ["andy-sandbox-lab",
+azure_workspaces = ["a-lab",
   "azure-vm-dev",
   "azure-vm-test",
   "azure-vm-stage",
