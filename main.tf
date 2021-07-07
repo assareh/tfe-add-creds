@@ -1,6 +1,5 @@
 provider "tfe" {
-  version = "=0.15.0"
-  token   = var.token
+  token = var.token
 }
 
 resource "tfe_variable" "gcp_credentials" {
