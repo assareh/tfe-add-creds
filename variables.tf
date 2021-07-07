@@ -8,17 +8,17 @@ variable "organization" {
 }
 
 variable "aws_workspaces" {
-  type    = set(string)
+  #  type    = set(string)
   default = []
 }
 
 variable "azure_workspaces" {
-  type    = set(string)
+  #  type    = set(string)
   default = []
 }
 
 variable "gcp_workspaces" {
-  type    = set(string)
+  #  type    = set(string)
   default = []
 }
 
